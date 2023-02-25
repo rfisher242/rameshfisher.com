@@ -85,27 +85,19 @@
 					<h2>Get In Touch</h2>
 					<p>If you are interested in getting in contact with me, send me a message and I will reply as soon as I can.</p>
 		
-					<form action=”mailto:rameshfisher@hotmail.com”
-
-
-						method=”POST”
-
-
-						enctype=”text/plain”
-
-
-						name=”EmailForm”>
-
-
-						<label for="name">Name:</label><br>
-						<input type="text" id="name" name="name"><br>
-
-
-						<label for="ContactCommentt">Message:</label><br>
-						<textarea id=”ContactCommentt” rows=”6″ cols=”20″>
-
-						<input type="submit" value="Send">
-						</form>
+					<form action="mailto:rameshfisher@hotmail.com"
+					method="POST"
+					enctype="multipart/form-data"
+					name="EmailForm">
+    					Name:<br>
+    					<input type="text" size="19" name="Contact-Name"><br><br>
+    					Email:<br>
+    					<input type="email" name="Contact-Email"><br><br> 
+    					Message:<br> 
+    					<textarea name="Contact-Message" rows="6″ cols="20″>
+    					</textarea><br><br> 
+    					<button type="submit" value="Submit">Send</button>
+					</form>  
 					 
 				<!-- Three -->
 					
